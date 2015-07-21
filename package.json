@@ -1,0 +1,35 @@
+{
+  "name": "gulp-lesshint-stylish",
+  "version": "1.0.0",
+  "description": "Stylish reporter for gulp-lesshint",
+  "license": "MIT",
+  "repository": "sagikazarmark/gulp-lesshint-stylish",
+  "author": {
+    "name": "Márk Sági-Kazár",
+    "email": "mark.sagikazar@gmail.com",
+    "url": "http://twitter.com/sagikazarmark"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "lesshint",
+    "reporter",
+    "code style",
+    "formatter",
+    "lint",
+    "linter",
+    "style guide",
+    "validate",
+    "stylish",
+    "elegant"
+  ],
+  "dependencies": {
+    "gulp-tap": "^0.1.3",
+    "jshint-stylish": "^1.0.0"
+  }
+}
