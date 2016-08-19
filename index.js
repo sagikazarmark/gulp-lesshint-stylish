@@ -13,12 +13,12 @@ function tapLesshint (action) {
 }
 
 function toJshint (file) {
-	return file.lesshint.errors.map(function (error) {
+	return file.lesshint.results.map(function (error) {
 		return {
 			file: file.base + error.file,
 			error: {
 				character: error.column,
-				code: 'W ' + error.linter,
+				code: error.severity + ' ' + error.linter,
 				line: error.line,
 				reason: error.message
 			}
